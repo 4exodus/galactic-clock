@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: radial-gradient(circle, #0d1b2a, #203a43, #2c5364); /* Tema scuro galattico */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Assicura che occupi l'intera altezza */
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adatta alla larghezza dello schermo */
+    height: 100%; /* Adatta all'altezza dello schermo */
+    z-index: 1; /* Assicura che il canvas sia visibile */
+}
+
